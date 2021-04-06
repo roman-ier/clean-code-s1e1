@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
@@ -142,13 +142,13 @@ li .input__text {
   display: none;
 }
 
-button.btn__del img {
+.field__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.btn__del img:hover {
+.field__img:hover {
   transform: rotateZ(0);
 }
 
