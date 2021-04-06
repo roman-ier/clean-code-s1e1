@@ -83,7 +83,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input__text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +96,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.input__text:focus {
   color: #333;
 }
 
@@ -137,8 +137,9 @@ li > label {
   width: 226px;
 }
 
-li > input[type="text"] {
+li .input__text {
   width: 226px;
+  display: none;
 }
 
 button.delete img {
@@ -160,11 +161,7 @@ ul#completed-tasks label {
 
 /* Edit Task */
 
-ul li input[type="text"] {
-  display: none;
-}
-
-ul li.editMode input[type="text"] {
+ul li.editMode .input__text {
   display: inline-block;
   width: 224px;
 }
